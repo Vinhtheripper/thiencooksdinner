@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url('/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/New/images/anh1.png'); 
+   <string notr="true">background-image: url('New/images/anh1.png');
 background-repeat: no-repeat;      
 background-position: center;      
 background-size: cover;</string>
