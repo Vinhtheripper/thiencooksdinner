@@ -4,7 +4,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(305, 292)
-        MainWindow.setStyleSheet("background-image: url(\'New/images/anh1.png\'); \n"
+        MainWindow.setStyleSheet("background-image: url('New/images/anh1.png'); \n"
                                  "background-repeat: no-repeat;      \n"
                                  "background-position: center;      \n"
                                  "background-size: cover;")

@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>1280</width>
-    <height>664</height>
+    <height>646</height>
    </rect>
   </property>
   <property name="font">
@@ -27,7 +27,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">#page{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/imageforproject/image/background1.png');
+background-image: url('/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/imageforproject/image/back1.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -64,99 +64,9 @@ background-size: cover;
 }</string>
   </property>
   <property name="currentIndex">
-   <number>0</number>
+   <number>2</number>
   </property>
   <widget class="QWidget" name="page">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>840</x>
-      <y>250</y>
-      <width>231</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Garamond</family>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>NGUYEN NGOC AI THIEN</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>180</y>
-      <width>231</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Garamond</family>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>NGUYEN QUANG VINH</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>490</y>
-      <width>231</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Garamond</family>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>LE DOAN QUOC KHANH</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>690</x>
-      <y>500</y>
-      <width>611</width>
-      <height>191</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Gabriola</family>
-      <pointsize>25</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#7f081d;&quot;&gt;ENJOY ART'S DIMENSION&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QCheckBox" name="checkBox_10">
     <property name="geometry">
      <rect>
@@ -197,7 +107,7 @@ QCheckBox::indicator:unchecked {
     <property name="geometry">
      <rect>
       <x>1220</x>
-      <y>380</y>
+      <y>340</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -229,10 +139,6 @@ QToolButton::icon {
     </property>
    </widget>
    <zorder>toolButton</zorder>
-   <zorder>label</zorder>
-   <zorder>label_2</zorder>
-   <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
    <zorder>checkBox_10</zorder>
   </widget>
   <widget class="QWidget" name="page_2">
@@ -308,7 +214,7 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>350</y>
+      <y>340</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -345,7 +251,7 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>160</y>
+      <y>100</y>
       <width>681</width>
       <height>551</height>
      </rect>
@@ -515,7 +421,7 @@ QCheckBox::indicator:unchecked {
     <property name="geometry">
      <rect>
       <x>1200</x>
-      <y>360</y>
+      <y>340</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -550,7 +456,7 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>350</y>
+      <y>330</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -690,8 +596,8 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>80</y>
-      <width>751</width>
+      <y>30</y>
+      <width>771</width>
       <height>61</height>
      </rect>
     </property>
@@ -708,7 +614,7 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>160</y>
+      <y>120</y>
       <width>221</width>
       <height>141</height>
      </rect>
@@ -736,7 +642,7 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>320</y>
+      <y>280</y>
       <width>221</width>
       <height>141</height>
      </rect>
@@ -764,7 +670,7 @@ QToolButton::icon {
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>480</y>
+      <y>440</y>
       <width>221</width>
       <height>141</height>
      </rect>
@@ -791,8 +697,8 @@ QToolButton::icon {
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>290</y>
+      <x>330</x>
+      <y>330</y>
       <width>113</width>
       <height>32</height>
      </rect>
@@ -804,28 +710,12 @@ QToolButton::icon {
      <string>PushResult</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>370</y>
-      <width>113</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(179, 179, 179);</string>
-    </property>
-    <property name="text">
-     <string>WatchResult</string>
-    </property>
-   </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
       <x>860</x>
       <y>260</y>
-      <width>221</width>
+      <width>271</width>
       <height>151</height>
      </rect>
     </property>
@@ -863,7 +753,7 @@ QToolButton::icon {
       <rect>
        <x>90</x>
        <y>40</y>
-       <width>113</width>
+       <width>171</width>
        <height>21</height>
       </rect>
      </property>
@@ -881,7 +771,7 @@ QToolButton::icon {
       <rect>
        <x>90</x>
        <y>100</y>
-       <width>113</width>
+       <width>171</width>
        <height>21</height>
       </rect>
      </property>

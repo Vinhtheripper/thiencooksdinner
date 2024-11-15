@@ -10,6 +10,7 @@ class MainApp(QStackedWidget):
         super().__init__()
         self.ui = Ui_StackedWidget()
         self.ui.setupUi(self)
+        self.setCurrentIndex(0)
         self.votes = [0, 0, 0]
         self.player = QMediaPlayer()
         self.audio_output = QAudioOutput()
