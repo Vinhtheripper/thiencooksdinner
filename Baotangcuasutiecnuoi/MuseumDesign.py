@@ -13,14 +13,14 @@ class Ui_StackedWidget(object):
     def setupUi(self, StackedWidget):
         StackedWidget.setObjectName("StackedWidget")
         StackedWidget.setEnabled(True)
-        StackedWidget.resize(1280, 664)
+        StackedWidget.resize(1280, 646)
         font = QtGui.QFont()
         font.setFamily("Georgia")
         font.setKerning(True)
         StackedWidget.setFont(font)
         StackedWidget.setAutoFillBackground(True)
         StackedWidget.setStyleSheet("#page{ \n"
-"background-image: url(\'/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/imageforproject/image/background1.png\');\n"
+"background-image: url(\'/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/imageforproject/image/back1.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
@@ -57,44 +57,6 @@ class Ui_StackedWidget(object):
 "}")
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
-        self.label = QtWidgets.QLabel(parent=self.page)
-        self.label.setGeometry(QtCore.QRect(840, 250, 231, 41))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label.setFont(font)
-        self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(parent=self.page)
-        self.label_2.setGeometry(QtCore.QRect(530, 180, 231, 41))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
-        self.label_3 = QtWidgets.QLabel(parent=self.page)
-        self.label_3.setGeometry(QtCore.QRect(530, 490, 231, 41))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(10)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label_3.setFont(font)
-        self.label_3.setObjectName("label_3")
-        self.label_4 = QtWidgets.QLabel(parent=self.page)
-        self.label_4.setGeometry(QtCore.QRect(690, 500, 611, 191))
-        font = QtGui.QFont()
-        font.setFamily("Gabriola")
-        font.setPointSize(25)
-        font.setBold(True)
-        font.setWeight(75)
-        self.label_4.setFont(font)
-        self.label_4.setAutoFillBackground(False)
-        self.label_4.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_4.setObjectName("label_4")
         self.checkBox_10 = QtWidgets.QCheckBox(parent=self.page)
         self.checkBox_10.setGeometry(QtCore.QRect(0, 50, 91, 81))
         self.checkBox_10.setStyleSheet("QCheckBox::indicator:checked {\n"
@@ -115,7 +77,7 @@ class Ui_StackedWidget(object):
         self.checkBox_10.setIconSize(QtCore.QSize(70, 70))
         self.checkBox_10.setObjectName("checkBox_10")
         self.toolButton = QtWidgets.QToolButton(parent=self.page)
-        self.toolButton.setGeometry(QtCore.QRect(1220, 380, 51, 51))
+        self.toolButton.setGeometry(QtCore.QRect(1220, 340, 51, 51))
         self.toolButton.setStyleSheet("QToolButton {\n"
 "    background-color: rgba(0, 0, 0, 50);  /* Nền màu đen mờ */\n"
 "    border: none;  /* Không có viền */\n"
@@ -132,10 +94,6 @@ class Ui_StackedWidget(object):
         self.toolButton.setIconSize(QtCore.QSize(25, 25))
         self.toolButton.setObjectName("toolButton")
         self.toolButton.raise_()
-        self.label.raise_()
-        self.label_2.raise_()
-        self.label_3.raise_()
-        self.label_4.raise_()
         self.checkBox_10.raise_()
         StackedWidget.addWidget(self.page)
         self.page_2 = QtWidgets.QWidget()
@@ -170,7 +128,7 @@ class Ui_StackedWidget(object):
         self.toolButton_2.setIconSize(QtCore.QSize(25, 25))
         self.toolButton_2.setObjectName("toolButton_2")
         self.toolButton_3 = QtWidgets.QToolButton(parent=self.page_2)
-        self.toolButton_3.setGeometry(QtCore.QRect(30, 350, 51, 51))
+        self.toolButton_3.setGeometry(QtCore.QRect(30, 340, 51, 51))
         self.toolButton_3.setStyleSheet("QToolButton {\n"
 "    background-color: rgba(0, 0, 0, 50);  /* Nền màu đen mờ */\n"
 "    border: none;  /* Không có viền */\n"
@@ -190,7 +148,7 @@ class Ui_StackedWidget(object):
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
         self.label_8 = QtWidgets.QLabel(parent=self.page_3)
-        self.label_8.setGeometry(QtCore.QRect(290, 160, 681, 551))
+        self.label_8.setGeometry(QtCore.QRect(290, 100, 681, 551))
         self.label_8.setText("")
         self.label_8.setPixmap(QtGui.QPixmap("/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/C:/Users/ASUS/Downloads/168 Of The Most Famous Paintings In Art History (1).jpg"))
         self.label_8.setObjectName("label_8")
@@ -261,7 +219,7 @@ class Ui_StackedWidget(object):
         self.checkBox_8.setIconSize(QtCore.QSize(70, 70))
         self.checkBox_8.setObjectName("checkBox_8")
         self.toolButton_5 = QtWidgets.QToolButton(parent=self.page_4)
-        self.toolButton_5.setGeometry(QtCore.QRect(1200, 360, 51, 51))
+        self.toolButton_5.setGeometry(QtCore.QRect(1200, 340, 51, 51))
         self.toolButton_5.setStyleSheet("QToolButton {\n"
 "    background-color: rgba(0, 0, 0, 50);  /* Nền màu đen mờ */\n"
 "    border: none;  /* Không có viền */\n"
@@ -276,7 +234,7 @@ class Ui_StackedWidget(object):
         self.toolButton_5.setIconSize(QtCore.QSize(25, 25))
         self.toolButton_5.setObjectName("toolButton_5")
         self.toolButton_8 = QtWidgets.QToolButton(parent=self.page_4)
-        self.toolButton_8.setGeometry(QtCore.QRect(30, 350, 51, 51))
+        self.toolButton_8.setGeometry(QtCore.QRect(30, 330, 51, 51))
         self.toolButton_8.setStyleSheet("QToolButton {\n"
 "    background-color: rgba(0, 0, 0, 50);  /* Nền màu đen mờ */\n"
 "    border: none;  /* Không có viền */\n"
@@ -338,13 +296,13 @@ class Ui_StackedWidget(object):
         self.toolButton_9.setIconSize(QtCore.QSize(25, 25))
         self.toolButton_9.setObjectName("toolButton_9")
         self.label_5 = QtWidgets.QLabel(parent=self.page_5)
-        self.label_5.setGeometry(QtCore.QRect(270, 80, 751, 61))
+        self.label_5.setGeometry(QtCore.QRect(270, 30, 771, 61))
         font = QtGui.QFont()
         font.setPointSize(48)
         self.label_5.setFont(font)
         self.label_5.setObjectName("label_5")
         self.radioButton = QtWidgets.QRadioButton(parent=self.page_5)
-        self.radioButton.setGeometry(QtCore.QRect(540, 160, 221, 141))
+        self.radioButton.setGeometry(QtCore.QRect(540, 120, 221, 141))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.radioButton.setFont(font)
@@ -355,7 +313,7 @@ class Ui_StackedWidget(object):
         self.radioButton.setIconSize(QtCore.QSize(200, 200))
         self.radioButton.setObjectName("radioButton")
         self.radioButton_2 = QtWidgets.QRadioButton(parent=self.page_5)
-        self.radioButton_2.setGeometry(QtCore.QRect(540, 320, 221, 141))
+        self.radioButton_2.setGeometry(QtCore.QRect(540, 280, 221, 141))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.radioButton_2.setFont(font)
@@ -366,7 +324,7 @@ class Ui_StackedWidget(object):
         self.radioButton_2.setIconSize(QtCore.QSize(200, 200))
         self.radioButton_2.setObjectName("radioButton_2")
         self.radioButton_3 = QtWidgets.QRadioButton(parent=self.page_5)
-        self.radioButton_3.setGeometry(QtCore.QRect(540, 480, 221, 141))
+        self.radioButton_3.setGeometry(QtCore.QRect(540, 440, 221, 141))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.radioButton_3.setFont(font)
@@ -377,15 +335,11 @@ class Ui_StackedWidget(object):
         self.radioButton_3.setIconSize(QtCore.QSize(200, 200))
         self.radioButton_3.setObjectName("radioButton_3")
         self.pushButton = QtWidgets.QPushButton(parent=self.page_5)
-        self.pushButton.setGeometry(QtCore.QRect(290, 290, 113, 32))
+        self.pushButton.setGeometry(QtCore.QRect(330, 330, 113, 32))
         self.pushButton.setStyleSheet("background-color: rgb(179, 179, 179);")
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(parent=self.page_5)
-        self.pushButton_2.setGeometry(QtCore.QRect(290, 370, 113, 32))
-        self.pushButton_2.setStyleSheet("background-color: rgb(179, 179, 179);")
-        self.pushButton_2.setObjectName("pushButton_2")
         self.groupBox = QtWidgets.QGroupBox(parent=self.page_5)
-        self.groupBox.setGeometry(QtCore.QRect(860, 260, 221, 151))
+        self.groupBox.setGeometry(QtCore.QRect(860, 260, 271, 151))
         self.groupBox.setObjectName("groupBox")
         self.label_6 = QtWidgets.QLabel(parent=self.groupBox)
         self.label_6.setGeometry(QtCore.QRect(10, 40, 81, 16))
@@ -394,7 +348,7 @@ class Ui_StackedWidget(object):
         self.label_7.setGeometry(QtCore.QRect(10, 100, 71, 16))
         self.label_7.setObjectName("label_7")
         self.lineEdit = QtWidgets.QLineEdit(parent=self.groupBox)
-        self.lineEdit.setGeometry(QtCore.QRect(90, 40, 113, 21))
+        self.lineEdit.setGeometry(QtCore.QRect(90, 40, 171, 21))
         self.lineEdit.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: 1px solid #ccc;  /* Bạn có thể thêm border nếu cần */\n"
@@ -403,7 +357,7 @@ class Ui_StackedWidget(object):
 "")
         self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(parent=self.groupBox)
-        self.lineEdit_2.setGeometry(QtCore.QRect(90, 100, 113, 21))
+        self.lineEdit_2.setGeometry(QtCore.QRect(90, 100, 171, 21))
         self.lineEdit_2.setStyleSheet("QLineEdit {\n"
 "    background: transparent;\n"
 "    border: 1px solid #ccc;  /* Bạn có thể thêm border nếu cần */\n"
@@ -432,17 +386,13 @@ class Ui_StackedWidget(object):
         StackedWidget.addWidget(self.page_6)
 
         self.retranslateUi(StackedWidget)
-        StackedWidget.setCurrentIndex(0)
+        StackedWidget.setCurrentIndex(2)
         self.toolButton.clicked.connect(self.page.repaint) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(StackedWidget)
 
     def retranslateUi(self, StackedWidget):
         _translate = QtCore.QCoreApplication.translate
         StackedWidget.setWindowTitle(_translate("StackedWidget", "StackedWidget"))
-        self.label.setText(_translate("StackedWidget", "NGUYEN NGOC AI THIEN"))
-        self.label_2.setText(_translate("StackedWidget", "NGUYEN QUANG VINH"))
-        self.label_3.setText(_translate("StackedWidget", "LE DOAN QUOC KHANH"))
-        self.label_4.setText(_translate("StackedWidget", "<html><head/><body><p><span style=\" color:#7f081d;\">ENJOY ART\'S DIMENSION</span></p></body></html>"))
         self.toolButton.setText(_translate("StackedWidget", "..."))
         self.toolButton_2.setText(_translate("StackedWidget", "..."))
         self.toolButton_3.setText(_translate("StackedWidget", "..."))
@@ -454,7 +404,6 @@ class Ui_StackedWidget(object):
         self.toolButton_9.setText(_translate("StackedWidget", "..."))
         self.label_5.setText(_translate("StackedWidget", "Which painting do you like the most?"))
         self.pushButton.setText(_translate("StackedWidget", "PushResult"))
-        self.pushButton_2.setText(_translate("StackedWidget", "WatchResult"))
         self.groupBox.setTitle(_translate("StackedWidget", "Results"))
         self.label_6.setText(_translate("StackedWidget", "No.of.votes"))
         self.label_7.setText(_translate("StackedWidget", "Winners"))
