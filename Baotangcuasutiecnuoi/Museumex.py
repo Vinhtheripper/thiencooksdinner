@@ -15,7 +15,7 @@ class MainApp(QStackedWidget):
         self.player = QMediaPlayer()
         self.audio_output = QAudioOutput()
         self.player.setAudioOutput(self.audio_output)
-        self.player.setSource(QUrl.fromLocalFile("/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/imageforproject/image/Beethoven - Moonlight Sonata (1st Movement).mp3"))
+        self.player.setSource(QUrl.fromLocalFile("imageforproject/image/Beethoven - Moonlight Sonata (1st Movement).mp3"))
         self.painting_names = ["Late afternoon, Vetheuil", "Cô gái bên hoa huệ", "The Persistence Of Memory"]
         self.ui.pushButton.clicked.connect(self.update_result)
         self.ui.toolButton.clicked.connect(self.next_slide)

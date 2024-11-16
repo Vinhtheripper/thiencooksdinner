@@ -20,37 +20,37 @@ class Ui_StackedWidget(object):
         StackedWidget.setFont(font)
         StackedWidget.setAutoFillBackground(True)
         StackedWidget.setStyleSheet("#page{ \n"
-"background-image: url(\'Baotangcuasutiecnuoi/imageforproject/image/back1.png\');\n"
+"background-image: url(\'imageforproject/image/back1.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
 "}\n"
 "#page_2{ \n"
-"background-image: url(\'Baotangcuasutiecnuoi/imageforproject/image/France.png\');\n"
+"background-image: url(\'imageforproject/image/France.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
 "}\n"
 "#page_3{ \n"
-"background-image: url(\'Baotangcuasutiecnuoi/imageforproject/image/Vietnam.png\');\n"
+"background-image: url(\'imageforproject/image/Vietnam.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
 "}\n"
 "#page_4{ \n"
-"background-image: url(\'Baotangcuasutiecnuoi/imageforproject/image/Spain.png\');\n"
+"background-image: url(\'imageforproject/image/Spain.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
 "}\n"
 "#page_5{ \n"
-"background-image: url(\'Baotangcuasutiecnuoi/imageforproject/image/analysis.png\');\n"
+"background-image: url(\'imageforproject/image/analysis.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
 "}\n"
 "#page_6{ \n"
-"background-image: url(\'Baotangcuasutiecnuoi/imageforproject/image/Goodbye.png\');\n"
+"background-image: url(\'imageforproject/image/Goodbye.png\');\n"
 "background-repeat: no-repeat;\n"
 "background-position: center;\n"
 "background-size: cover;\n"
@@ -72,7 +72,7 @@ class Ui_StackedWidget(object):
 "")
         self.checkBox_10.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Baotangcuasutiecnuoi/imageforproject/image/cd.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("imageforproject/image/cd.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.checkBox_10.setIcon(icon)
         self.checkBox_10.setIconSize(QtCore.QSize(70, 70))
         self.checkBox_10.setObjectName("checkBox_10")
@@ -89,7 +89,7 @@ class Ui_StackedWidget(object):
 "\n"
 "")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("Baotangcuasutiecnuoi/imageforproject/image/lui.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("imageforproject/image/lui.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.toolButton.setIcon(icon1)
         self.toolButton.setIconSize(QtCore.QSize(25, 25))
         self.toolButton.setObjectName("toolButton")
@@ -140,7 +140,7 @@ class Ui_StackedWidget(object):
 "\n"
 "")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("Baotangcuasutiecnuoi/imageforproject/image/pass.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("imageforproject/image/pass.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.toolButton_3.setIcon(icon2)
         self.toolButton_3.setIconSize(QtCore.QSize(25, 25))
         self.toolButton_3.setObjectName("toolButton_3")
@@ -202,7 +202,6 @@ class Ui_StackedWidget(object):
         self.label_13 = QtWidgets.QLabel(parent=self.page_4)
         self.label_13.setGeometry(QtCore.QRect(370, 20, 511, 671))
         self.label_13.setText("")
-        self.label_13.setPixmap(QtGui.QPixmap("/Users/quangvinh/Documents/Pythonfile/thiencooksdinner/Baotangcuasutiecnuoi/C:/Users/ASUS/Downloads/thiếunu.jpg"))
         self.label_13.setObjectName("label_13")
         self.checkBox_8 = QtWidgets.QCheckBox(parent=self.page_4)
         self.checkBox_8.setGeometry(QtCore.QRect(30, 10, 91, 81))
@@ -308,7 +307,7 @@ class Ui_StackedWidget(object):
         self.radioButton.setFont(font)
         self.radioButton.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("Baotangcuasutiecnuoi/imageforproject/image/France1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon3.addPixmap(QtGui.QPixmap("imageforproject/image/France1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.radioButton.setIcon(icon3)
         self.radioButton.setIconSize(QtCore.QSize(200, 200))
         self.radioButton.setObjectName("radioButton")
@@ -319,7 +318,7 @@ class Ui_StackedWidget(object):
         self.radioButton_2.setFont(font)
         self.radioButton_2.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("Baotangcuasutiecnuoi/imageforproject/image/Vietnam1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon4.addPixmap(QtGui.QPixmap("imageforproject/image/Vietnam1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.radioButton_2.setIcon(icon4)
         self.radioButton_2.setIconSize(QtCore.QSize(200, 200))
         self.radioButton_2.setObjectName("radioButton_2")
@@ -330,7 +329,7 @@ class Ui_StackedWidget(object):
         self.radioButton_3.setFont(font)
         self.radioButton_3.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("Baotangcuasutiecnuoi/imageforproject/image/Spain1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon5.addPixmap(QtGui.QPixmap("imageforproject/image/Spain1.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.radioButton_3.setIcon(icon5)
         self.radioButton_3.setIconSize(QtCore.QSize(200, 200))
         self.radioButton_3.setObjectName("radioButton_3")
